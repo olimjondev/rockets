@@ -1,0 +1,14 @@
+.failed{
+	color: $amaranth;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.phone-center{
+	@include for-phone-only{
+		text-align: center;
+	}
+}

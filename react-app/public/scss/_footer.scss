@@ -1,0 +1,24 @@
+footer{
+	background: $athens-gray;
+	.column{
+		padding-bottom: 0 !important;
+		.element{
+			padding: 20px 0;
+			color: $light-black;
+			font-size: 1.1rem;
+			@include for-phone-only{
+				padding-top: 0 !important;
+				padding-bottom: 0 !important;
+			}
+			a.back-to-top{
+				text-decoration: underline;
+				color: $black;
+			}
+		}
+		.phone-padding-top{
+			@include for-phone-only{
+				padding-top: 20px !important;
+			}
+		}
+	}
+}
